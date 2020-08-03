@@ -91,7 +91,7 @@ def all_holidays_with_bbq(holiday_hash)
      holiday if item.include?("BBQ")#returning holiday if condition is met 
     end
   end
-  .flatten.compact
+  .flatten.compact #turns results into one array and removes nil using compaact
 end
 
 
